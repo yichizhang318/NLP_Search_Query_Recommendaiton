@@ -44,10 +44,10 @@ Topic modeling result can be found in the [presentation slide](./presentation/pr
 I built a website demo that simplifies Home Depot search function and results that it returns. <br><br>
 _Home Page:_
 ![demo_homepage](./images/demo_homepage.PNG) <br><br><br>
-Let's try a random search, 'bamboo', for example. And this is how it returns: <br><br>
+Let's try a random search, 'bamboo', for example. And this is what it returns: <br><br>
 
 ![demo_search_bamboo](./images/demo_search_bamboo.PNG)<br><br>
 The three gray tabs on the left are the search terms that search engine thinks what the customer intent to search. The two tabs on the right are the top two related terms that system found in the Product Title database, that customers can click and direct to other pages with bamboo pole or bamboo faucet products. 
 
 ## Next Steps
-Natural Language Processing definitely plays a pivotal role in this project, but the searching engine can utilize topic modeling that, if the system detects that a customer is searching a subcategory product, for example, bathroom faucet, it can trace to the parent category and knows that *"Oh, this customer wants to decorate his/her bathroom. Maybe he/she needs a sink as well."* 
+Natural Language Processing definitely plays a pivotal role in this project, but the searching engine can utilize topic modeling: if the system detects a customer searching for a subcategory product, bathroom faucet, for example, it can trace back to the parent category and knows that *"Oh, this customer wants to decorate his/her bathroom. Maybe he/she needs a sink as well."* 
