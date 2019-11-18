@@ -35,7 +35,7 @@ I used **TextBlob** library to correct misspelling of queries, **WordNinja** to 
 The pipeline has been applied to Product Title, Product Description, and Search Queries. 
 
 ## Models
-I chose to pick the words that appeared between 5% to 30% to be meaningful in TF-IDF vectorizor, and get a large sparse matrix. Therefore, I need to use a dimension reduction methodology to squeeze the matrix. After trying a few solutions, for product descriptions and product titles, **Non-negative Matrix Factorization (NMF)** combined with **Latent Dirichlet Allocation** gave me the most sensible clusterings. Regarding search queries, since there are limited product categories, I used **CorEx** to get lists of words that are closest to the anchors that I artificially manipulated. 
+I chose to pick words that appeared between 5% to 30% frequency appeared in the entire corpus to be meaningful in TF-IDF vectorizor, and get a large sparse matrix. Therefore, I need to use a dimension reduction methodology to squeeze the matrix. After trying a few solutions, for product descriptions and product titles, **Non-negative Matrix Factorization (NMF)** combined with **Latent Dirichlet Allocation** gave me the most sensible clusterings. Regarding search queries, since there are limited product categories, I used **CorEx** to get lists of words that are closest to the anchors that I artificially manipulated. 
 
 Text processing and Modeling codes can be found in [Product_description_processing.ipynb](./code/1-Product_description_processing.ipynb) and [Search_Relevance_Score.ipynb](./code/2-Search_Relevance_Score.ipynb).
 
