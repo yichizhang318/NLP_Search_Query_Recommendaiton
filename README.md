@@ -1,6 +1,6 @@
 # Home Depot Search Term Recommendation
 
-This project was innovated from experience of a college friend  of mine who recently bought his first house and sought for items on home improvement websites like Home Depot. He went through a headache that *these websites sometimes return irrelevant products that he eventually lost patient on searching*. If this phenomenon goes viral, busiensses will lose significantly amount of revenue. <br> 
+This project idea came to me from experience of a college friend  of mine who recently bought his first house and sought for items on home improvement websites like Home Depot. He went through a headache that *these websites sometimes return irrelevant products that he eventually lost patient on searching*. If this phenomenon goes viral, busiensses will lose significant amount of revenue. <br> 
 
 
 
@@ -50,4 +50,4 @@ Let's try a random search, 'bamboo', for example. And this is what it returns: <
 The three gray tabs on the left are the search terms that search engine thinks what the customer intent to search. The two tabs on the right are the top two related terms that system found in the Product Title database, that customers can click and direct to other pages with bamboo pole or bamboo faucet products. 
 
 ## Next Steps
-Natural Language Processing definitely plays a pivotal role in this project, but the searching engine can utilize topic modeling: if the system detects a customer searching for a subcategory product, bathroom faucet, for example, it can trace back to the parent category and knows that *"Oh, this customer wants to decorate his/her bathroom. Maybe he/she needs a sink as well."* 
+Natural Language Processing definitely plays a pivotal role in this project, but the search engine can utilize topic modeling: if the system detects a customer searching for a subcategory product, bathroom faucet, for example, it can trace back to the parent category and knows that *"Oh, this customer wants to decorate his/her bathroom. Maybe he/she needs a sink as well."* 
